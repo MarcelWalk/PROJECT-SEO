@@ -10,6 +10,10 @@ body.nav-active {
   border-radius: 100px;
 }
 
+h1,h2,h3{
+  text-align: center;
+}
+
 /*@media screen and (max-width: 799px) {
   main {
     padding-top: calc(3rem + 4rem);
@@ -19,16 +23,17 @@ body.nav-active {
 /* overrides */
 main {
   height: 100%;
+  padding-top: 4rem;
 }
 
 nav {
   font-size: 16px;
-  position: fixed;
+  position: static;
   height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(238, 81, 81);
+  background: white;
   visibility: hidden;
   z-index: 1;
 }
@@ -133,7 +138,7 @@ nav {
   padding: 0 1.5rem;
   position: fixed;
   width: 100%;
-  background: rgb(243, 24, 24);
+  background: white;
   z-index: 2;
 }
 
@@ -185,7 +190,7 @@ nav {
 }
 
 .section {
-  height: 100vh;
+  /*min-height: 100vh;*/
   padding: 1.5rem;
 }
 
@@ -195,15 +200,22 @@ nav {
 
 .section-cover {
   height: calc(100vh - 4rem);
-  background-image: url(https://images2.alphacoders.com/480/480530.png);
+  background-color: grey;
   color: azure;
   text-align: center;
 }
 
 .seperator {
   height: 2rem;
-  background: rgb(255, 0, 0);
+  background: white;
   background: linear-gradient(180deg, rgb(243, 243, 243) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.center {
+  margin: auto;
+  position: relative;
+  top: 45%;
+  transform: translateY(-55%);
 }
 
 @media screen and (min-width: 800px) {
@@ -218,4 +230,8 @@ nav {
   .social {
     margin: 0 10px;
   }
+}
+
+.fixed-top{
+  z-index: 1;
 }
