@@ -177,3 +177,11 @@ nav {
 .nav-active .burger__meat--3 {
   transform: rotate(-45deg);
 }
+
+.section{
+
+}
+
+.intro{
+  height: calc(100vh - 5.5rem);
+}
