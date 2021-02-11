@@ -11,7 +11,9 @@ body.nav-active {
   border-radius: 100px;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
   text-align: center;
 }
 
@@ -232,6 +234,13 @@ nav {
   }
 }
 
-.fixed-top{
-  z-index: 1;=
+.fixed-top {
+  z-index: 1;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+  margin-left: 10%;
+  margin-top: 20px;
 }
