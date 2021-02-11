@@ -2,39 +2,50 @@ body.nav-active {
   overflow: hidden;
 }
 
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 100px;
+}
 
-  main {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  .image-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-  }
+h1,h2,h3{
+  text-align: center;
+}
 
-@media screen and (max-width: 799px) {
+/*@media screen and (max-width: 799px) {
   main {
     padding-top: calc(3rem + 4rem);
   }
-}
+}*/
 
 /* overrides */
 main {
-  padding-top: 5.5rem;
   height: 100%;
+  padding-top: 4rem;
 }
 
 nav {
   font-size: 16px;
-  position: fixed;
+  position: static;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(238, 81, 81);
+  background: white;
   visibility: hidden;
   z-index: 1;
+}
+
+.navbar-brand {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 800px) {
+  .navbar-brand {
+    visibility: visible;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -48,7 +59,7 @@ nav {
 
 .nav-active nav {
   visibility: visible;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -59,7 +70,7 @@ nav {
 }
 
 .nav_list {
-  text-align: right;
+  text-align: left;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -127,7 +138,7 @@ nav {
   padding: 0 1.5rem;
   position: fixed;
   width: 100%;
-  background: #fff;
+  background: white;
   z-index: 2;
 }
 
@@ -166,22 +177,61 @@ nav {
   transform: translateY(10px);
 }
 
-.nav-active .burger__meat--1 {
+.nav-active .burger_meat--1 {
   transform: rotate(45deg);
 }
 
-.nav-active .burger__meat--2 {
+.nav-active .burger_meat--2 {
   opacity: 0;
 }
 
-.nav-active .burger__meat--3 {
+.nav-active .burger_meat--3 {
   transform: rotate(-45deg);
 }
 
-.section{
-
+.section {
+  /*min-height: 100vh;*/
+  padding: 1.5rem;
 }
 
-.intro{
-  height: calc(100vh - 5.5rem);
+.navbar-brand {
+  margin-left: 1.5rem;
+}
+
+.section-cover {
+  height: calc(100vh - 4rem);
+  background-color: grey;
+  color: azure;
+  text-align: center;
+}
+
+.seperator {
+  height: 2rem;
+  background: white;
+  background: linear-gradient(180deg, rgb(243, 243, 243) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.center {
+  margin: auto;
+  position: relative;
+  top: 45%;
+  transform: translateY(-55%);
+}
+
+@media screen and (min-width: 800px) {
+
+  ul,
+  li {
+    display: inline
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .social {
+    margin: 0 10px;
+  }
+}
+
+.fixed-top{
+  z-index: 1;=
 }

@@ -23,9 +23,9 @@
     </script>
 
     <!-- STYLES -->
-    <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
 
     <title>Marcel Walk | Softwareentwickler aus Leoben</title>
 </head>
@@ -37,10 +37,24 @@
             <div class="burger_meat burger_meat--3"></div>
         </div>
     </div>
-    <nav id="navigation">
-        <ul class="nav-list">
+    <nav id="navigation" class="navbar fixed-top">
+        <ul class="nav_list nav_home">
             <li>
-                <a href="#">Home</a>
+                <a class="navbar-brand" href="#">Marcel Walk</a>
+            </li>
+        </ul>
+        <ul class="social-links nav_list">
+            <li class="social">
+                <a class="" href="#">GitHub</a>
+            </li>
+            <li class="social">
+                <a class="" href="#">LinkedIn</a>
+            </li>
+            <li class="social">
+                <a class="" href="#">Twitter</a>
+            </li>
+            <li class="social">
+                <a class="" href="#">Facebook</a>
             </li>
         </ul>
     </nav>
@@ -48,13 +62,100 @@
 
 <body>
     <main>
-        <div class="section intro">
+        <div class="section section-cover">
+            <div class="center">
             <img class="image-center" alt="Foto von Marcel Walk" title="Marcel Walk"
                 src="https://media-exp1.licdn.com/dms/image/C4D03AQHwNFqhXflaig/profile-displayphoto-shrink_200_200/0/1539583665918?e=1618444800&v=beta&t=2ydrf3G5CjW3RBq-An7nCNNgap86XyX5zZS0DEwfOGQ">
             <h1>Marcel Walk - Softwareentwickler</h1>
             <p>Hi, ich heisse <strong>Marcel Walk</strong> und bin <strong>leidenschaftlicher Softwareentwickler aus
-                    Leoben.</strong>
-                <p>Ich entwickle schon seit 8 Jahren software, und das alles im selbststudium!</p>
+                    Leoben.</strong><br> und entwickle schon seit über 8 Jahren software, und das alles im selbststudium!</p>
+        </div>
+    </div>
+
+        <div class="seperator"></div>
+
+        <div class="section">
+            <h2>Technologien und Programmiersprachen</h2>
+            <p>Ich entwickle open source (quellcode offene) software in meiner freizeit und durfe auch schon ein projekt
+                fuer ein Unternehmen aus Leoben umsetzen.
+                Ich beherrsche folgende Programmier- und Scriptsprachen:</p>
+            <ul>
+                <li>C#</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <p>Mit folgenden Technologien habe ich Erfahrung</p>
+            <ul>
+                <li>ASP.NET</li>
+                <li>Statiq</li>
+                <li>WPF</li>
+                <li>WinForms</li>
+                <li>Swing</li>
+                <li>ASP.NET</li>
+                <li>Azure DevOps Server</li>
+                <li>Entity-Framework</li>
+                <li>GIT</li>
+                <li>Windows Server</li>
+                <li>Linux</li>
+                <li>MS-SQL</li>
+                <li>Oracle-SQL</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Karriere</h2>
+            <p>01.2021 - Jetzt</p>
+            <p>Softwareentwickler / Gamed, Graz</p>
+            <ul>
+                <li>Entwicklung, Weiterentwicklung und Deployment von Anwendungen (C#, WinForms),
+                    die oesterreich weit in verschiedenen Standorten ausgerollt wurden.</li>
+            </ul>
+            <p>04.2018 - 11.2020</p>
+            <p>AES Specialist / AT&S, Leoben</p>
+            <ul>
+                <li>Beratung, Entwicklung und Implementierung von firmeninternen Anwendungen (C#, WPF),
+                    die weltweit in verschiedenen Standorten ausgerollt wurden.</li>
+                <li>Wartung, Administration und Einrichtung unserer Applikationsserver und des Team
+                    Foundation Servers (Azure DevOps).</li>
+                <li>Pionierarbeit in Bezug auf neue Techniken und deren Verwendungszweck in einem
+                    produktiven Umfeld (AR, E-Ink Displays, RFID)</li>
+                <li>Eigenständige Dokumentation und Planung der Projekte</li>
+            </ul>
+            <p>09.2013 - 09.2016</p>
+            <p>Kunststoffformgeber / Tyco Electronics, Speyer</p>
+            <ul>
+                <li>Manuelle bearbeitung von Kunststoffen und Metallen</li>
+                <li>Einrichten und Überwachen von Kunststoffspritzgussmaschinen (Arburg & Demag)</li>
+            </ul>
+            <p>06.2008 - 06.2013</p>
+            <p>Mittlere Reife / Friedrich Ebert Realschule, Frankenthal</p>
+            <ul>
+                <li>Freiwilliges 10. Schuljahr</li>
+                <li>Mathematik und Englisch Leistungskurs</li>
+            </ul>
+        </div>
+
+        <div class="section">
+
+            <h2>Über Marcel Walk</h2>
+            <p>Angefangen hat meine private kariere in der Software Entwicklung mit Java, zuerst Konsolen Applikationen
+                und
+                später Desktop Software.
+                Meine erfahrung konnte ich im bereich softwareentwicklung mit Java etwa 4 Jahre lang ausbauen. Und habe
+                diverse kleinere Projekte umgesetzt wie zum beispiel ein bildanalyse tool, einen Taschenrechner und
+                einen
+                IRC Chat client.</p>
+
+            <p>Weiter ging die reise mit C# darauf gestossen bin ich durch die Unity spieleengine doch gepackt hatte
+                mich
+                mal wieder die desktop software entwicklung. Hier habe ich auch diverse Anwendungen entwickelt der code
+                hierfuer ist teilweise auf github zu finden</p>
+            <p> Hier habe ich mich letztendlich beruflich fokussiert, und konnte
+                in 2018 dann auch meine erste stelle als Softwareentwickler antreten.</p>
+
                 <p>Man könnte sagen das ich die Softwareentwicklung lebe, denn ich widme dem programmieren und der
                     entwicklung
                     an software projekten ca. 13 stunden meines
@@ -65,78 +166,6 @@
                     ich auch
                     gerne mal exkurse in die entwicklung von websites und web Anwendungen.</p>
         </div>
-        <h2>Technologien und Programmiersprachen</h2>
-        <p>Ich entwickle open source (quellcode offene) software in meiner freizeit und durfe auch schon ein projekt
-            fuer ein Unternehmen aus Leoben umsetzen.
-            Ich beherrsche folgende Programmier- und Scriptsprachen:</p>
-        <ul>
-            <li>C#</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-
-        <p>Mit folgenden Technologien habe ich Erfahrung</p>
-        <ul>
-            <li>ASP.NET</li>
-            <li>Statiq</li>
-            <li>WPF</li>
-            <li>WinForms</li>
-            <li>Swing</li>
-            <li>ASP.NET</li>
-            <li>Azure DevOps Server</li>
-            <li>Entity-Framework</li>
-            <li>GIT</li>
-            <li>Windows Server</li>
-            <li>Linux</li>
-            <li>MS-SQL</li>
-            <li>Oracle-SQL</li>
-        </ul>
-
-        <h2>Karriere</h2>
-        <p>01.2021 - Jetzt</p>
-        <p>Softwareentwickler / Gamed, Graz</p>
-        <ul>
-            <li>Entwicklung, Weiterentwicklung und Deployment von Anwendungen (C#, WinForms),
-                die oesterreich weit in verschiedenen Standorten ausgerollt wurden.</li>
-        </ul>
-        <p>04.2018 - 11.2020</p>
-        <p>AES Specialist / AT&S, Leoben</p>
-        <ul>
-            <li>Beratung, Entwicklung und Implementierung von firmeninternen Anwendungen (C#, WPF),
-                die weltweit in verschiedenen Standorten ausgerollt wurden.</li>
-            <li>Wartung, Administration und Einrichtung unserer Applikationsserver und des Team
-                Foundation Servers (Azure DevOps).</li>
-            <li>Pionierarbeit in Bezug auf neue Techniken und deren Verwendungszweck in einem
-                produktiven Umfeld (AR, E-Ink Displays, RFID)</li>
-            <li>Eigenständige Dokumentation und Planung der Projekte</li>
-        </ul>
-        <p>09.2013 - 09.2016</p>
-        <p>Kunststoffformgeber / Tyco Electronics, Speyer</p>
-        <ul>
-            <li>Manuelle bearbeitung von Kunststoffen und Metallen</li>
-            <li>Einrichten und Überwachen von Kunststoffspritzgussmaschinen (Arburg & Demag)</li>
-        </ul>
-        <p>06.2008 - 06.2013</p>
-        <p>Mittlere Reife / Friedrich Ebert Realschule, Frankenthal</p>
-        <ul>
-            <li>Freiwilliges 10. Schuljahr</li>
-            <li>Mathematik und Englisch Leistungskurs</li>
-        </ul>
-
-        <h2>Ueber Marcel Walk</h2>
-        <p>Angefangen hat meine private kariere in der Software Entwicklung mit Java, zuerst Konsolen Applikationen und
-            später Desktop Software.
-            Meine erfahrung konnte ich im bereich softwareentwicklung mit Java etwa 4 Jahre lang ausbauen. Und habe
-            diverse kleinere Projekte umgesetzt wie zum beispiel ein bildanalyse tool, einen Taschenrechner und einen
-            IRC Chat client.</p>
-
-        <p>Weiter ging die reise mit C# darauf gestossen bin ich durch die Unity spieleengine doch gepackt hatte mich
-            mal wieder die desktop software entwicklung. Hier habe ich auch diverse Anwendungen entwickelt der code
-            hierfuer ist teilweise auf github zu finden</p>
-        <p> Hier habe ich mich letztendlich beruflich fokussiert, und konnte
-            in 2018 dann auch meine erste stelle als Softwareentwickler antreten.</p>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
