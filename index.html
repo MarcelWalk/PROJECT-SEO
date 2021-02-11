@@ -38,12 +38,23 @@
         </div>
     </div>
     <nav id="navigation" class="navbar fixed-top">
-        <ul class="nav_list nav_home">
+        <div class="container-fluid">
+        
+        <ul class="nav-home nav_list">
             <li>
-                <a class="navbar-brand" href="#">Marcel Walk</a>
+                <a class="navbar-brand" href="#s-home">Marcel Walk</a>
+            </li>
+            <li>
+                <a class="social" href="#s-skills">Skills</a>
+            </li>
+            <li>
+                <a class="social" href="#s-career">Karriere</a>
+            </li>
+            <li>
+                <a class="social" href="#s-about">Ueber Mich</a>
             </li>
         </ul>
-        <ul class="social-links nav_list">
+        <ul class="social-links nav_list navbar-text">
             <li class="social">
                 <a class="" href="#">GitHub</a>
             </li>
@@ -57,12 +68,13 @@
                 <a class="" href="#">Facebook</a>
             </li>
         </ul>
+    </div>
     </nav>
 </header>
 
 <body>
     <main>
-        <div class="section section-cover">
+        <div id="s-home" class="section section-cover">
             <div class="center">
                 <img class="image-center" alt="Foto von Marcel Walk" title="Marcel Walk"
                     src="https://media-exp1.licdn.com/dms/image/C4D03AQHwNFqhXflaig/profile-displayphoto-shrink_200_200/0/1539583665918?e=1618444800&v=beta&t=2ydrf3G5CjW3RBq-An7nCNNgap86XyX5zZS0DEwfOGQ">
@@ -75,7 +87,7 @@
 
         <div class="seperator"></div>
 
-        <div class="section">
+        <div id="s-skills" class="section">
             <h2>Technologien und Programmiersprachen</h2>
             <p>Ich entwickle open source (quellcode offene) software in meiner freizeit und durfe auch schon ein projekt
                 fuer ein Unternehmen aus Leoben umsetzen.
@@ -106,7 +118,7 @@
             </ul>
         </div>
 
-        <div class="section">
+        <div id="s-career" class="section">
             <h2>Karriere</h2>
 
             <div class="card">
@@ -182,7 +194,7 @@
                 </div>
             </div>
 
-            <div class="section">
+            <div id="s-about" class="section">
 
                 <h2>Über Marcel Walk</h2>
                 <p>Angefangen hat meine private kariere in der Software Entwicklung mit Java, zuerst Konsolen

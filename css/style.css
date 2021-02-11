@@ -45,13 +45,18 @@ nav {
   z-index: 1;
 }
 
-.navbar-brand {
+.nav-home {
   visibility: hidden;
 }
 
 @media screen and (min-width: 800px) {
-  .navbar-brand {
+  .nav-home {
     visibility: visible;
+    
+  }
+
+  .nav-home li{
+    display: inline;
   }
 }
 
@@ -265,4 +270,12 @@ nav {
   margin: auto;
   margin-left: 10%;
   margin-top: 20px;
+}
+
+.navbar-brand{
+  color: #000;
+}
+
+.navbar .container-fluid{
+  /*justify-content:left;*/
 }
