@@ -1,3 +1,7 @@
+html,body{
+  background-color: whitesmoke;
+}
+
 body.nav-active {
   overflow: hidden;
 }
@@ -193,7 +197,7 @@ nav {
 }
 
 .section {
-  /*min-height: 100vh;*/
+  min-height: 100vh;
   padding: 1.5rem;
 }
 
@@ -209,8 +213,6 @@ nav {
 
 .seperator {
   height: 2rem;
-  background: white;
-  background: linear-gradient(180deg, rgb(243, 243, 243) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .center {
@@ -228,6 +230,11 @@ nav {
   }
 }
 
+.tags{
+  display: inline;
+  list-style: none;
+}
+
 @media screen and (min-width: 800px) {
   .social {
     margin: 0 10px;
@@ -238,6 +245,21 @@ nav {
   z-index: 1;
 }
 
+.p-logo{
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 799px) {
+  .p-logo{
+    margin: 10px;
+  }
+
+
+}
+  .col-md{
+    text-align: center;
+  }
 .card {
   width: 80%;
   margin: auto;
