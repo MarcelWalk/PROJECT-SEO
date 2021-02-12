@@ -278,6 +278,7 @@ nav {
 
 .prog-lang-list{
 background-color: whitesmoke;
+padding: 1.5rem;
 }
 
 .lang-img{
@@ -299,10 +300,6 @@ background-color: whitesmoke;
   line-height: 2.5rem;
 }
 
-.tech-list{
-
-}
-
-.navbar .container-fluid{
-  /*justify-content:left;*/
+#s-skills{
+  padding: 0;
 }
