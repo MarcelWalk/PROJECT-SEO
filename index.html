@@ -8,6 +8,24 @@
     <meta name="description"
         content="Marcel Walk - Profesioneller Softwareentwickler aus Leoben. Ich besitze ueber 8 Jahre erfahrung in der softwareentwicklung im Web und Desktop bereich.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:title" content="Marcel Walk | Softwareentwickler aus Leoben" />
+    <meta property="og:site_name" content="Marcel Walk | Softwareentwickler aus Leoben" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:image"
+        content="https://avatars.githubusercontent.com/u/23500970?s=460&u=9d1f3847e7e960e436051b8d6e39885cf650d841&v=4" />
+    <meta property="og:url" content="https://marcel-walk.dev/" />
+    <meta property="og:description"
+        content="Marcel Walk - Profesioneller Softwareentwickler aus Leoben. Ich besitze ueber 8 Jahre erfahrung in der softwareentwicklung im Web und Desktop bereich." />
+    <meta name="twitter:title" content="Marcel Walk | Personal Website - Home">
+    <meta name="twitter:image"
+        content="https://avatars.githubusercontent.com/u/23500970?s=460&u=9d1f3847e7e960e436051b8d6e39885cf650d841&v=4">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description"
+        content="Marcel Walk - Profesioneller Softwareentwickler aus Leoben. Ich besitze ueber 8 Jahre erfahrung in der softwareentwicklung im Web und Desktop bereich.">
+    <meta name="keywords"
+        content="C#,Leoben,Graz,Softwareentwickler,Softwareentwicklung,Software,Desktop,Website,websites" />
 
     <!-- MICRODATA -->
     <script type="application/ld+json">
@@ -23,6 +41,9 @@
     </script>
 
     <!-- STYLES -->
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
@@ -59,31 +80,43 @@
         </div>
     </div>
     <nav id="navigation" class="navbar fixed-top">
-        <ul class="nav_list nav_home">
-            <li>
-                <a class="navbar-brand" href="#">Marcel Walk</a>
-            </li>
-        </ul>
-        <ul class="social-links nav_list">
-            <li class="social">
-                <a class="" href="#">GitHub</a>
-            </li>
-            <li class="social">
-                <a class="" href="#">LinkedIn</a>
-            </li>
-            <li class="social">
-                <a class="" href="#">Twitter</a>
-            </li>
-            <li class="social">
-                <a class="" href="#">Facebook</a>
-            </li>
-        </ul>
+        <div class="container-fluid">
+
+            <ul class="nav-home nav_list">
+                <li>
+                    <a class="navbar-brand" href="#s-home">Marcel Walk</a>
+                </li>
+                <li>
+                    <a class="social" href="#s-skills">Skills</a>
+                </li>
+                <li>
+                    <a class="social" href="#s-career">Karriere</a>
+                </li>
+                <li>
+                    <a class="social" href="#s-about">Ueber Mich</a>
+                </li>
+            </ul>
+            <ul class="social-links nav_list navbar-text">
+                <li class="social">
+                    <a class="" href="https://github.com/MarcelWalk">GitHub</a>
+                </li>
+                <li class="social">
+                    <a class="" href="https://www.linkedin.com/in/marcel-walk/">LinkedIn</a>
+                </li>
+                <li class="social">
+                    <a class="" href="https://twitter.com/Nyasaki_AT">Twitter</a>
+                </li>
+                <li class="social">
+                    <a class="" href="https://www.facebook.com/Nyasaki">Facebook</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 </header>
 
 <body>
     <main>
-        <div class="section section-cover">
+        <div id="s-home" class="section section-cover">
             <div class="center">
                 <img class="image-center" alt="Foto von Marcel Walk" title="Marcel Walk"
                     src="https://media-exp1.licdn.com/dms/image/C4D03AQHwNFqhXflaig/profile-displayphoto-shrink_200_200/0/1539583665918?e=1618444800&v=beta&t=2ydrf3G5CjW3RBq-An7nCNNgap86XyX5zZS0DEwfOGQ">
@@ -96,18 +129,18 @@
 
         <div class="seperator"></div>
 
-        <div class="section">
+        <div id="s-skills" class="section">
             <h2>Technologien und Programmiersprachen</h2>
             <p>Ich entwickle open source (quellcode offene) software in meiner freizeit und durfe auch schon ein projekt
-                fuer ein Unternehmen aus Leoben umsetzen.
+                für ein Unternehmen aus Leoben umsetzen.
                 Ich beherrsche folgende Programmier- und Scriptsprachen:</p>
-            <ul>
-                <li>C#</li>
-                <li>Java</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
+
+            <div class="row">
+                <div class="col-md"><img class="p-logo" alt=".NET" src="img/dotnet-logo.svg"></div>
+                <div class="col-md"><img class="p-logo" alt="JS" src="img/js.png"></div>
+                <div class="col-md"><img class="p-logo" alt="HTML" src="img/html.png"></div>
+                <div class="col-md"><img class="p-logo" alt="CSS" src="img/css.png"></div>
+            </div>
 
             <p>Mit folgenden Technologien habe ich Erfahrung</p>
             <ul>
@@ -127,13 +160,13 @@
             </ul>
         </div>
 
-        <div class="section">
+        <div id="s-career" class="section">
             <h2>Karriere</h2>
 
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Softwareentwickler | 01.2021 - Jetzt</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Gamed, Graz</h6>
+                    <h3 class="card-title">Softwareentwickler | 01.2021 - Jetzt</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Gamed, Graz</h4>
                     <ul>
                         <li>
                             <p class="card-text">Entwicklung, Weiterentwicklung und Deployment von Anwendungen (C#,
@@ -147,8 +180,8 @@
 
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">AES Specialist | 04.2018 - 11.2020</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">AT&S, Leoben</h6>
+                    <h3 class="card-title">AES Specialist | 04.2018 - 11.2020</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">AT&S, Leoben</h4>
                     <ul>
                         <li>
                             <p class="card-text">Beratung, Entwicklung und Implementierung von firmeninternen
@@ -174,8 +207,8 @@
 
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Kunststoffformgeber | 09.2013 - 09.2016</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Tyco Electronics, Speyer</h6>
+                    <h3 class="card-title">Kunststoffformgeber | 09.2013 - 09.2016</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Tyco Electronics, Speyer</h4>
                     <ul>
                         <li>
                             <p class="card-text">Manuelle bearbeitung von Kunststoffen und Metallen</p>
@@ -190,8 +223,8 @@
 
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Mittlere Reife | 06.2008 - 06.2013</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Friedrich Ebert Realschule, Frankenthal</h6>
+                    <h3 class="card-title">Mittlere Reife | 06.2008 - 06.2013</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Friedrich Ebert Realschule, Frankenthal</h4>
                     <ul>
                         <li>
                             <p class="card-text">Freiwilliges 10. Schuljahr</p>
@@ -203,7 +236,7 @@
                 </div>
             </div>
 
-            <div class="section">
+            <div id="s-about" class="section">
 
                 <h2>Über Marcel Walk</h2>
                 <p>Angefangen hat meine private kariere in der Software Entwicklung mit Java, zuerst Konsolen
@@ -220,7 +253,7 @@
                     mich
                     mal wieder die desktop software entwicklung. Hier habe ich auch diverse Anwendungen entwickelt der
                     code
-                    hierfuer ist teilweise auf github zu finden</p>
+                    hierfür ist teilweise auf github zu finden</p>
                 <p> Hier habe ich mich letztendlich beruflich fokussiert, und konnte
                     in 2018 dann auch meine erste stelle als Softwareentwickler antreten.</p>
 
