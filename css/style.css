@@ -1,5 +1,5 @@
 html,body{
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 body.nav-active {
@@ -17,7 +17,7 @@ body.nav-active {
 
 h1,
 h2,
-h3 {
+h3,h4 {
   text-align: center;
 }
 
@@ -202,7 +202,7 @@ nav {
 }
 
 .section {
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   padding: 1.5rem;
 }
 
@@ -274,6 +274,33 @@ nav {
 
 .navbar-brand{
   color: #000;
+}
+
+.prog-lang-list{
+background-color: whitesmoke;
+}
+
+.lang-img{
+  margin: 50px 0;
+}
+
+.skills{
+  margin:  0 auto;
+  display: inline;
+}
+
+.skills li{
+  display: inline;
+  background-color: gainsboro;
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+  line-height: 2.5rem;
+}
+
+.tech-list{
+
 }
 
 .navbar .container-fluid{
